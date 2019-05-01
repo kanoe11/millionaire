@@ -2,26 +2,15 @@
     text-align: center;
 }
 
-.q1a{
+.q1r{
     border: 2px solid blue;;
   padding: 10px;
   border-radius: 280px 250px;
+  margin-bottom: 10px;
+  width:  406px;
+  
 }
 
-.q1b{
-    border: 2px solid blue;;
-  padding: 10px;
-  border-radius: 280px 250px;
-}
-
-.q1c{
-    border: 2px solid blue;;
-  padding: 10px;
-  border-radius: 280px 250px;
-}
-
-.q1d{
-    border: 2px solid blue;;
-  padding: 10px;
-  border-radius: 280px 250px;
+body{
+  font-family: Arial, Helvetica, sans-serif;
 }
