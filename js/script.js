@@ -1,26 +1,23 @@
 $( document ).ready(function() {
-    $(".question-2").hide();
-    $(".q1r").click(function(e){
-        // verifier l'etat si l'etat  0 le user n'a jamais clique 
-        if ($(".q1").data("enabled") == 0 ){
-            if ( e.target.textContent == "B:Tesla" ){
-                $(this).css('background-color', 'green');
-                $(".question-2").show();
-            }  else {
-                $(this).css('background-color', 'red');
-            }
-            $(".q1").data("enabled" , "1");
+    function initialization(){
+        for(var i = 2 ; i < 4 ; i++){
+            $(".question-"+i).hide();   
         }
-   });
-   $(".q2r").click(function(e){
-    // verifier l'etat si l'etat  0 le user n'a jamais clique 
-    if ($(".q1").data("enabled") == true ){
-        if ( e.target.textContent == "D:Grèce" ){
-            $(this).css('background-color', 'green');
-            } else {
-                $(this).css('background-color', 'red');
-            }
-            $(".q1").data("enabled" , "false");
-        }
-    });
+    }
+    $(".q1r").click(function(){
+        CheckAttribute(this);
+    });       
+    function CheckAttribute(context){
+        var i = 1;
+        if ($(context).attr("data-response") == "yes"){
+            $(context).addClass("vrai");
+            $(".question-"+i).show();
+            i= i +1;  
+            console.log($(".question-"+i).show());
+        } else {
+            $(context).addClass("faux");
+            alert("Vous avez perdu");
+        }     
+    } 
+   initialization();
 });

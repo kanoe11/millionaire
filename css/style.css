@@ -2,22 +2,37 @@
     text-align: center;
 }
 
+.questionTitle{
+  text-align: center;
+  margin-top: 50px;
+}
+
 .q1r,.q2r{
     border: 2px solid blue;;
   padding: 10px;
   border-radius: 280px 250px;
   margin-bottom: 10px;
-  width:  406px;
+  margin-left: 153px;
+  width:  401px;
   display: inline-block;
-  
 }
 
 body{
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../img/millionaire.jpg");
+  color: whitesmoke;
+
 }
 
 .footer{
   position: relative;
   bottom: 8px;
   left: 16px
+}
+.vrai {
+  background-color:#2DC625;
+}
+
+.faux{
+  background-color: red;
 }
