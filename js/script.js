@@ -1,8 +1,12 @@
 $( document ).ready(function() {
     function initialization(){
-        for(var i = 2 ; i < 4 ; i++){
+       /*  for(var i = 2 ; i < 4 ; i++){
             $(".question-"+i).hide();   
-        }
+        } */
+       /*$.ajax({
+        url: 
+        method:"GET"
+       })*/
     }
     $(".q1r").click(function(){
         CheckAttribute(this);

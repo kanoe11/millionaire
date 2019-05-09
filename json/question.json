@@ -1,0 +1,36 @@
+
+    {
+        "question-1" : "Question 1: De quelle societé Elon Musk est t-il PDG ?",
+        "reponseq1a" : "A: Facebook",
+        "reponseq1b" :  "B:Tesla",
+        "reponseq1c" :  "C:Amazon",
+        "reponseq1d" :  "D:Ford"
+    },
+    {
+        "question-2" : "Question 2 : Dans quelle pays ne roulent t'ont pas à gauche ?",
+        "reponseq2a" : "A: l'Angleterre",
+        "reponseq2b" :  "B:Japon",
+        "reponseq2c" :  "C:Australie",
+        "reponseq2d" :  "D:Grèce"
+    },
+    {
+        "question-3" : "Question 3: dans quelle pays ne parle t'on pas l'espagnole ?",
+        "reponseq3a" : "A: Puerto Rico",
+        "reponseq3b" :  "B:Mexique",
+        "reponseq3c" :  "C:Surinam",
+        "reponseq3d" :  "D:Nicaragua"
+    },
+    {
+        "question-1" : "Question 4: Quelle tribus n'est pas Indienne ",
+        "reponseq1a" : "A: Comanche",
+        "reponseq1b" :  "B:Cheyenne",
+        "reponseq1c" :  "C:Zulu",
+        "reponseq1d" :  "D:Cherokees"
+    },
+    {
+        "question-1" : "Question 5: de quelle origine est la marque zara ? ",
+        "reponseq1a" : "A: l'Italie",
+        "reponseq1b" :  "B:L'Espagne",
+        "reponseq1c" :  "C:Portugal",
+        "reponseq1d" :  "D:France"
+    }
