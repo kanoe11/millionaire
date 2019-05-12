@@ -1,12 +1,13 @@
 $( document ).ready(function() {
     function initialization(){
-       /*  for(var i = 2 ; i < 4 ; i++){
-            $(".question-"+i).hide();   
-        } */
-       /*$.ajax({
-        url: 
-        method:"GET"
-       })*/
+        $.ajax({
+            url: "question.php",
+            //data: data,
+            success: function(data){
+                    $("#game").append(data)
+            },
+            //dataType: dataType
+          });
     }
     $(".q1r").click(function(){
         CheckAttribute(this);
@@ -25,3 +26,5 @@ $( document ).ready(function() {
     } 
    initialization();
 });
+
+
